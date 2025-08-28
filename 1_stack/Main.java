@@ -10,9 +10,15 @@ public class Main {
         stack.push("Fallguys");
         stack.push("Clash of Clans");
 
-        stack.pop();//remove the top most object
+        // stack.pop();//remove the top most object
+        // String myfav_game = stack.pop();
+        // System.out.println(myfav_game);
+        System.out.println(stack);
+        System.out.println(stack.peek());
+        System.out.println(stack.search("VAlorant"));
 
-       System.out.println(stack);
+
+       
 
     }
 }
